@@ -44,7 +44,7 @@ background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 251, 157, 0.859375) 29
 {   
     background: #ff8800;
     width: 100%;
-    height: 180px;
+    height: 130px;
     top: 0;
     left:0;
     position: fixed;
@@ -58,7 +58,7 @@ a.logo
     width: 101px;
     height: 57px;
     left: 40px;
-    top: 50px;
+    top: 20px;
     text-decoration: none;
     font-family: 'Overpass';
     font-style: italic;
@@ -74,7 +74,7 @@ a.logo
     width: 101px;
     height: 57px;
     left: 40px;
-    top: 45px;
+    top: 15px;
     text-decoration: none;
     font-family: 'Overpass';
     font-style: italic;
