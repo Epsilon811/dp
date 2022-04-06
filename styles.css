@@ -3,29 +3,84 @@
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/overpass-v10-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/overpass-v10-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/overpass-v10-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/overpass-v10-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/overpass-v10-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/overpass-v10-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/overpass-v10-latin_cyrillic-regular.svg#Overpass') format('svg'); /* Legacy iOS */
+         url('./fonts/overpass-v10-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/overpass-v10-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/overpass-v10-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/overpass-v10-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/overpass-v10-latin_cyrillic-regular.svg#Overpass') format('svg'); /* Legacy iOS */
   }
   /* overpass-italic - latin_cyrillic */
   @font-face {
     font-family: 'Overpass';
     font-style: italic;
     font-weight: 400;
-    src: url('../fonts/overpass-v10-latin_cyrillic-italic.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/overpass-v10-latin_cyrillic-italic.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/overpass-v10-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/overpass-v10-latin_cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/overpass-v10-latin_cyrillic-italic.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/overpass-v10-latin_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/overpass-v10-latin_cyrillic-italic.svg#Overpass') format('svg'); /* Legacy iOS */
+         url('./fonts/overpass-v10-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/overpass-v10-latin_cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/overpass-v10-latin_cyrillic-italic.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/overpass-v10-latin_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/overpass-v10-latin_cyrillic-italic.svg#Overpass') format('svg'); /* Legacy iOS */
   }
 
-body{position: relative;
+/* amatic-sc-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/amatic-sc-v23-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/amatic-sc-v23-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/amatic-sc-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/amatic-sc-v23-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/amatic-sc-v23-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/amatic-sc-v23-latin_cyrillic-regular.svg#AmaticSC') format('svg'); /* Legacy iOS */
+  }
+  /* amatic-sc-700 - latin_cyrillic */
+  @font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/amatic-sc-v23-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/amatic-sc-v23-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/amatic-sc-v23-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/amatic-sc-v23-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/amatic-sc-v23-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/amatic-sc-v23-latin_cyrillic-700.svg#AmaticSC') format('svg'); /* Legacy iOS */
+  }
+
+  /* rubik-mono-one-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/rubik-mono-one-v12-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/rubik-mono-one-v12-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/rubik-mono-one-v12-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/rubik-mono-one-v12-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/rubik-mono-one-v12-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/rubik-mono-one-v12-latin_cyrillic-regular.svg#RubikMonoOne') format('svg'); /* Legacy iOS */
+  }
+/* monoton-regular - latin */
+@font-face {
+    font-family: 'Monoton';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/monoton-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/monoton-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/monoton-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/monoton-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/monoton-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/monoton-v13-latin-regular.svg#Monoton') format('svg'); /* Legacy iOS */
+}
+  
+body{
+    position: relative;
     height: 4096px;
 
 background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 251, 157, 0.859375) 29.69%, rgba(255, 221, 101, 0.8) 54.17%, rgba(255, 153, 0, 0.62) 77.6%, #D27E00 100%);
@@ -58,11 +113,15 @@ a.logo
     width: 101px;
     height: 57px;
     left: 40px;
-    top: 20px;
+    top: 5px;
     text-decoration: none;
+    font-family: 'Monoton';
+    font-style: normal;
+    /*
     font-family: 'Overpass';
     font-style: italic;
-    font-weight: 900;
+    */
+    font-weight: 400;
     font-size: 90px;
     align-items: center; 
     color: #ffffff;
@@ -74,11 +133,12 @@ a.logo
     width: 101px;
     height: 57px;
     left: 40px;
-    top: 15px;
+    top: 0px;
     text-decoration: none;
-    font-family: 'Overpass';
-    font-style: italic;
-    font-weight: 900;
+
+    font-family: 'Monoton';
+    font-style: normal;
+    font-weight: 400;
     font-size: 90px;
    
     /* identical to box height */
@@ -386,8 +446,10 @@ color: #000000;
     box-sizing: border-box;
     border-radius: 20px;
     
+    
 
 } 
+
 .dp{
     text-align: center;
     left: 377px;
@@ -496,7 +558,7 @@ color: #000000;
 }
 .contact_blok
 {
-    position: absolute;
+position: absolute;
 width: 425px;
 height: 202px;
 left:190px;
@@ -511,3 +573,67 @@ font-size: 80px;
 line-height: 101px;
 }
 
+.contact_v
+{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    
+    top: 2200px;
+    
+    /* В */
+    
+    /*font-family: 'Amatic SC';
+    font-style: normal;*/
+    font-family: 'Overpass';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 122px;
+}
+.contact_d
+{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left:400px;
+    top: 2200px;
+    
+    /* font-family: 'Monoton';
+    font-style: normal; */
+    
+    font-family: 'Overpass';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 122px;
+}
+.v-tel
+{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: 2500px;
+    
+    font-family: 'Monoton';
+    font-style: normal; 
+    
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 122px;
+}
+.d-tel
+{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left:400px;
+    top: 2500px;
+    
+    font-family: 'Monoton';
+    font-style: normal; 
+    
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 122px;
+}
