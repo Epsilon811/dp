@@ -1,4 +1,5 @@
 /* overpass-regular - latin_cyrillic */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Roboto&display=swap');
 @font-face {
     font-family: 'Overpass';
     font-style: normal;
@@ -115,12 +116,11 @@ a.logo
     left: 40px;
     top: 5px;
     text-decoration: none;
+   
+
     font-family: 'Monoton';
     font-style: normal;
-    /*
-    font-family: 'Overpass';
-    font-style: italic;
-    */
+
     font-weight: 400;
     font-size: 90px;
     align-items: center; 
@@ -297,14 +297,14 @@ p.zakaz1{
     
     position: absolute;
     
-    left: 87px;
-    top:520px;
-width: 223px;
-height: 82px;
+    left: 70px;
+    top:505px;
+width: 253px;
+height: 112px;
 
 
-background: linear-gradient(180deg, rgba(255, 230, 0, 0.27) 0%, rgba(255, 192, 29, 0.81) 100%);
-filter: blur(50px);
+background: linear-gradient(180deg, rgba(255, 230, 0, 0.27) 0%, rgb(255, 183, 0) 100%);
+filter: blur(20px);
 border-radius: 100px;
 }
 
@@ -381,7 +381,7 @@ border-radius: 100px;
 width: 174px;
 height: 41px;
 left: 25px;
-top: -15px;
+top: -12px;
 
 font-family: 'Overpass';
 font-style: normal;
@@ -398,7 +398,7 @@ position: absolute;
 top: 290px;
 width: 780px;
     height: 441px;
-
+left: 7px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 310px;
@@ -432,17 +432,17 @@ color: #000000;
 
  .code{
     background-position-x: center;
-    filter: alpha(Opacity=30);  
-    opacity: 0.3;
+    filter: alpha(Opacity=50);  
+    opacity: 0.5;
     float:center;
     top: 200px;
     width: 800px;
     height: 441px;
     position: absolute;
     
-   
-    background: url(image.png);
-    border: 3px solid #2d2d2d;
+    background: url(code2.png);
+    
+    border: 1px solid #999494;
     box-sizing: border-box;
     border-radius: 20px;
     
@@ -472,20 +472,20 @@ color: #2D2D2D;
 .pf
 {
     position: absolute;
-width: 428px;
-height: 538px;
-top: 690px;
+width: 388px;
+height: 581px;
+top: 680px;
 
-background: url(adapt.jpg);
+background: url(adapt2.png);
 border: 3px solid #000000;
 box-sizing: border-box;
 border-radius: 20px;
 }
 .pf_text_h{
 position: absolute;
-width: 425px;
+width: 400px;
 height: 202px;
-left: 420px;
+left: 400px;
 top: 670px;
 
 /* В */
@@ -500,9 +500,9 @@ color: #000000;
 }
 .pf_text_p{
 position: absolute;
-width: 300px;
+width: 450px;
 height: 35px;
-left: 470px;
+left: 400px;
 top: 910px;
 
 font-family: 'Overpass';
@@ -518,7 +518,7 @@ position: absolute;
 width: 800px;
 height: 122px;
 float:center;
-top: 1150px;
+top: 1180px;
 text-align: center;
 font-family: 'Overpass';
 font-style: italic;
@@ -562,7 +562,7 @@ position: absolute;
 width: 425px;
 height: 202px;
 left:190px;
-top: 2000px;
+top: 1980px;
 
 /* В */
 
@@ -590,6 +590,7 @@ line-height: 101px;
     font-weight: 400;
     font-size: 35px;
     line-height: 122px;
+    color:#585858;
 }
 .contact_d
 {
@@ -607,6 +608,7 @@ line-height: 101px;
     font-weight: 400;
     font-size: 35px;
     line-height: 122px;
+    color:#585858;
 }
 .v-tel
 {
@@ -615,8 +617,8 @@ line-height: 101px;
     height: 100px;
     top: 2500px;
     
-    font-family: 'Monoton';
-    font-style: normal; 
+    font-family: 'Overpass';
+    font-style: italic;
     
     font-weight: 400;
     font-size: 35px;
@@ -630,10 +632,11 @@ line-height: 101px;
     left:400px;
     top: 2500px;
     
-    font-family: 'Monoton';
-    font-style: normal; 
+    font-family: 'Overpass';
+    font-style: italic;
     
     font-weight: 400;
     font-size: 35px;
     line-height: 122px;
 }
+
